@@ -125,10 +125,9 @@ function TaskForm({ task }) {
         );
       }
 
-      console.log(newTask);
-      /*Tasks.add(newTask);
+      Tasks.add(newTask);
       history.push("/");
-      history.go();*/
+      history.go();
     },
   });
 
