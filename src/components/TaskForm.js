@@ -125,9 +125,10 @@ function TaskForm({ task }) {
         );
       }
 
-      Tasks.add(newTask);
+      console.log(newTask);
+      /*Tasks.add(newTask);
       history.push("/");
-      history.go();
+      history.go();*/
     },
   });
 
