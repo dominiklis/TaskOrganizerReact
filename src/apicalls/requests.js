@@ -1,6 +1,7 @@
 import axios from "axios";
 import { GetToken } from "./auth";
-axios.defaults.baseURL = "https://localhost:44322/api";
+// axios.defaults.baseURL = "https://localhost:44322/api";
+axios.defaults.baseURL = "https://api-dl20210211155922.azurewebsites.net/api";
 
 const responseBody = (response) => response;
 const handleError = (err) => {

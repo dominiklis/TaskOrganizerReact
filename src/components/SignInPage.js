@@ -86,7 +86,7 @@ function SignInPage() {
 
   return (
     <Container maxWidth="sm" className={classes.container}>
-      <Typography variant="h5">
+      <Typography variant="h5" color="primary">
         Sign in to Task Organizer
       </Typography>
       {isError && (

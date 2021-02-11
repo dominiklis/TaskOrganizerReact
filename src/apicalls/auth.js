@@ -1,5 +1,6 @@
 import axios from "axios";
-axios.defaults.baseURL = "https://localhost:44322/api";
+// axios.defaults.baseURL = "https://localhost:44322/api";
+axios.defaults.baseURL = "https://api-dl20210211155922.azurewebsites.net/api";
 
 const tokenKey = "TaskOrganizerUserToken";
 const userNameKey = "TaskOrganizerUserName";
