@@ -126,8 +126,8 @@ function TaskForm({ task }) {
       }
 
       Tasks.add(newTask);
-      history.push("/");
-      history.go();
+      //history.push("/");
+      //history.go();
     },
   });
 
