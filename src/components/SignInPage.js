@@ -64,7 +64,7 @@ function SignInPage() {
   const classes = useStyles();
 
   const [isError, setIsError] = useState(false);
-  const [errorMsg, setErrorMsg] = useState("TEST");
+  const [errorMsg, setErrorMsg] = useState("");
 
   const formik = useFormik({
     initialValues: {
